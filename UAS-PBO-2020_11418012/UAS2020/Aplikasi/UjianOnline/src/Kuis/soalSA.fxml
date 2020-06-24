@@ -14,19 +14,19 @@
          </font>
       </Label>
       <Label layoutX="23.0" layoutY="30.0" text="Soal" />
-      <Label layoutX="21.0" layoutY="56.0" text="2. Ibukota negara Indonesia adalah">
+      <Label fx:id="soal2" layoutX="21.0" layoutY="56.0" text="2. Ibukota negara Indonesia adalah">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Button layoutX="335.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Selanjutnya" />
-      <Button layoutX="85.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Sebelum" />
-      <TextArea layoutX="21.0" layoutY="137.0" prefHeight="58.0" prefWidth="217.0" />
+      <Button fx:id="btnselanjutnya" layoutX="335.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Selanjutnya" />
+      <Button fx:id="btnSebelum" layoutX="85.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Sebelum" />
+      <TextArea fx:id="jawban" layoutX="21.0" layoutY="137.0" prefHeight="58.0" prefWidth="217.0" />
       <AnchorPane layoutX="380.0" layoutY="65.0" prefHeight="145.0" prefWidth="90.0" style="-fx-background-color: #EEE8AA;">
          <children>
-            <Button layoutX="23.0" layoutY="26.0" mnemonicParsing="false" text="No. 1" />
-            <Button layoutX="23.0" layoutY="61.0" mnemonicParsing="false" text="No. 2" />
-            <Button layoutX="23.0" layoutY="95.0" mnemonicParsing="false" text="No. 3" />
+            <Button fx:id="btn1" layoutX="23.0" layoutY="26.0" mnemonicParsing="false" text="No. 1" />
+            <Button fx:id="btn2" layoutX="23.0" layoutY="61.0" mnemonicParsing="false" text="No. 2" />
+            <Button fx:id="btn3" layoutX="23.0" layoutY="95.0" mnemonicParsing="false" text="No. 3" />
          </children>
       </AnchorPane>
    </children>

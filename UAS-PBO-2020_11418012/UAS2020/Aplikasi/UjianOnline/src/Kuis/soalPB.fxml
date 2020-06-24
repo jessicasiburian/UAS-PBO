@@ -13,36 +13,36 @@
          </font>
       </Label>
       <Label layoutX="23.0" layoutY="30.0" text="Soal" />
-      <Label layoutX="21.0" layoutY="56.0" text="3. Ibukota negara Indonesia adalah">
+      <Label fx:id="soal3" layoutX="21.0" layoutY="56.0" text="3. Ibukota negara Indonesia adalah">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Button layoutX="335.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Selanjutnya" />
-      <Button layoutX="85.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Sebelum" />
+      <Button fx:id="btnselanjutnya" layoutX="335.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Selanjutnya" />
+      <Button fx:id="btnSebelum" layoutX="85.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Sebelum" />
       <AnchorPane layoutX="380.0" layoutY="65.0" prefHeight="145.0" prefWidth="90.0" style="-fx-background-color: #EEE8AA;">
          <children>
-            <Button layoutX="23.0" layoutY="26.0" mnemonicParsing="false" text="No. 1" />
-            <Button layoutX="23.0" layoutY="61.0" mnemonicParsing="false" text="No. 2" />
-            <Button layoutX="23.0" layoutY="95.0" mnemonicParsing="false" text="No. 3" />
+            <Button fx:id="btn1" layoutX="23.0" layoutY="26.0" mnemonicParsing="false" text="No. 1" />
+            <Button fx:id="btn2" layoutX="23.0" layoutY="61.0" mnemonicParsing="false" text="No. 2" />
+            <Button fx:id="btn3" layoutX="23.0" layoutY="95.0" mnemonicParsing="false" text="No. 3" />
          </children>
       </AnchorPane>
-      <Button layoutX="26.0" layoutY="138.0" mnemonicParsing="false" text="A">
+      <Button fx:id="btnA" layoutX="26.0" layoutY="138.0" mnemonicParsing="false" text="A">
          <font>
             <Font size="11.0" />
          </font>
       </Button>
-      <Button layoutX="27.0" layoutY="172.0" mnemonicParsing="false" text="B">
+      <Button fx:id="btnB" layoutX="27.0" layoutY="172.0" mnemonicParsing="false" text="B">
          <font>
             <Font size="11.0" />
          </font>
       </Button>
-      <Button layoutX="27.0" layoutY="206.0" mnemonicParsing="false" text="C">
+      <Button fx:id="btnC" layoutX="27.0" layoutY="206.0" mnemonicParsing="false" text="C">
          <font>
             <Font size="11.0" />
          </font>
       </Button>
-      <Button layoutX="26.0" layoutY="239.0" mnemonicParsing="false" text="D">
+      <Button fx:id="btnD" layoutX="26.0" layoutY="239.0" mnemonicParsing="false" text="D">
          <font>
             <Font size="11.0" />
          </font>

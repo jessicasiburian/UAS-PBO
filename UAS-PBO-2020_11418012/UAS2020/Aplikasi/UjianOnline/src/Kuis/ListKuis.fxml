@@ -19,10 +19,10 @@
       </AnchorPane>
       <TableView layoutX="23.0" layoutY="67.0" prefHeight="256.0" prefWidth="563.0">
         <columns>
-          <TableColumn prefWidth="55.0" text="ID Kuis" />
-          <TableColumn prefWidth="197.0" text="Tanggal Pelaksanaan" />
-          <TableColumn prefWidth="188.0" text="Matakuliah" />
-          <TableColumn prefWidth="122.0" text="Durasi" />
+          <TableColumn fx:id="tblidkuis" prefWidth="55.0" text="ID Kuis" />
+          <TableColumn fx:id="tglpelaksanaan" prefWidth="197.0" text="Tanggal Pelaksanaan" />
+          <TableColumn fx:id="matkul" prefWidth="188.0" text="Matakuliah" />
+          <TableColumn fx:id="durasi" prefWidth="122.0" text="Durasi" />
         </columns>
       </TableView>
    </children>
