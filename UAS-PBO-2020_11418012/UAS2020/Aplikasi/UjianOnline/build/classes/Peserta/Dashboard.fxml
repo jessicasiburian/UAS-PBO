@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
@@ -8,9 +12,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="437.0" prefWidth="705.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ujianonline.Peserta.DashboardController">
+<AnchorPane id="AnchorPane" prefHeight="575.0" prefWidth="752.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ujianonline.Peserta.DashboardController">
    <children>
-      <TableView layoutX="30.0" layoutY="120.0" prefHeight="286.0" prefWidth="289.0">
+      <TableView layoutX="30.0" layoutY="120.0" prefHeight="264.0" prefWidth="289.0">
         <columns>
           <TableColumn fx:id="tblno" prefWidth="39.0" text="No" />
           <TableColumn fx:id="tblmatkul" prefWidth="249.0" text="Matakuliah" />
@@ -21,11 +25,26 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Pane prefHeight="50.0" prefWidth="705.0" style="-fx-background-color: #20B2AA;">
+      <Pane prefHeight="50.0" prefWidth="752.0" style="-fx-background-color: #20B2AA;">
          <children>
             <Button fx:id="btnKuis" layoutX="31.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: #ffffff;" text="Kuis" />
-            <Button fx:id="btnAbout" layoutX="521.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="About" />
-            <Button fx:id="btnLogout" layoutX="606.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Log Out" />
+            <Button fx:id="btnAbout" layoutX="583.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="About" />
+            <Button fx:id="btnLogout" layoutX="668.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Log Out" />
+         </children>
+      </Pane>
+      <LineChart fx:id="linechart" layoutX="383.0" layoutY="92.0" prefHeight="195.0" prefWidth="344.0">
+         <xAxis>
+            <CategoryAxis side="BOTTOM" fx:id="x" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="y" side="LEFT" />
+         </yAxis>
+      </LineChart>
+      <Label layoutX="441.0" layoutY="315.0" text="Matakuliah Paling Diminati" />
+      <Label layoutX="430.0" layoutY="75.0" text="Banyaknya Mahasiswa yang Mengikuti Kuis/Hari" />
+      <Pane fx:id="paneView" layoutX="429.0" layoutY="351.0" prefHeight="179.0" prefWidth="289.0">
+         <children>
+            <PieChart layoutX="16.0" layoutY="4.0" prefHeight="172.0" prefWidth="258.0" />
          </children>
       </Pane>
    </children>

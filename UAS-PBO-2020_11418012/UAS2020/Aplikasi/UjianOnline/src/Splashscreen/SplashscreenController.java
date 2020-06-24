@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Splashscreen;
 
+import java.awt.Button;
+import java.awt.TextField;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.RadioButton;
 
 /**
  * FXML Controller class
@@ -16,12 +15,28 @@ import javafx.fxml.Initializable;
  */
 public class SplashscreenController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
+    @FXML
+    private TextField email;
+
+    @FXML
+    private TextField pass;
+
+    @FXML
+    private RadioButton rbAdmin;
+
+    @FXML
+    private RadioButton rbPeserta;
+
+    @FXML
+    private Button btnReset;
+
+    @FXML
+    private Button btnLogin;
+    
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }    
     
 }
