@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 24, 2020 11:10:55 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="hibernate.entity.JawabanPeserta" table="JAWABAN_PESERTA" schema="PUBLIC" catalog="UASPBO" optimistic-lock="version">
+        <composite-id name="id" class="hibernate.entity.JawabanPesertaId">
+            <key-property name="username" type="string">
+                <column name="USERNAME" length="25" />
+            </key-property>
+            <key-property name="idSoalkuis" type="int">
+                <column name="ID_SOALKUIS" />
+            </key-property>
+        </composite-id>
+        <property name="jawabanPeserta" type="string">
+            <column name="JAWABAN_PESERTA" length="25" />
+        </property>
+    </class>
+</hibernate-mapping>

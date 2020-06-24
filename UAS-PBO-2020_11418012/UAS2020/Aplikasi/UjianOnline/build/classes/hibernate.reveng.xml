@@ -41,6 +41,5 @@ Contributor(s):
 -->
 <hibernate-reverse-engineering>
   <schema-selection match-catalog="UASPBO" match-schema="PUBLIC"/>
-  <table-filter match-name="USER"/>
-  <table-filter match-name="PESERTA"/>
+  <table-filter match-name="JAWABAN_PESERTA"/>
 </hibernate-reverse-engineering>

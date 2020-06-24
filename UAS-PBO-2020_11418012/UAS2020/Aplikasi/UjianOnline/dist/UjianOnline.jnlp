@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="UjianOnline.jar" size="146579" download="eager" />
+    <jar href="UjianOnline.jar" size="144311" download="eager" />
     <jar href="lib\antlr-2.7.7.jar" size="437548" download="eager" />
     <jar href="lib\c3p0-0.9.2.1.jar" size="422423" download="eager" />
     <jar href="lib\dom4j-1.6.1.jar" size="309995" download="eager" />
@@ -31,6 +31,6 @@
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="UjianOnline" >
     <param name="requiredFXVersion" value="8.0+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="800" height="600" main-class="ujianonline.UjianOnline"  name="UjianOnline" />
+  <jfx:javafx-desc  width="800" height="600" main-class="Splashscreen.UjianOnline"  name="UjianOnline" />
   <update check="always"/>
 </jnlp>
