@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="452.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="ujianonline.Peserta.AboutController">
+   <children>
+      <ImageView fitHeight="125.0" fitWidth="119.0" layoutX="167.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Users/ITD/Pictures/Camera%20Roll/IMG-20190525-WA0012-1-1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="108.0" layoutY="200.0" text="Nim">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="200.0" text="11418012">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="229.0" text="Nama">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="229.0" text="Jessica Siburian">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="260.0" text="Tgl Lahir">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="260.0" text="20 Desember 2000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="290.0" text="Alamat">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="290.0" text="Paniaran">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

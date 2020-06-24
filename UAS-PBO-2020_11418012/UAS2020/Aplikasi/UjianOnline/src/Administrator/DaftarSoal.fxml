@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Administrator.DaftarSoalController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Daftar Bank Soal">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Line endX="610.0" layoutX="169.0" layoutY="48.0" startX="-168.0" />
+      <TableView layoutX="14.0" layoutY="77.0" prefHeight="258.0" prefWidth="769.0">
+        <columns>
+          <TableColumn fx:id="id_soal" prefWidth="54.0" text="id_soal" />
+          <TableColumn fx:id="tp_soal" prefWidth="96.0" text="Tipe Soal" />
+          <TableColumn fx:id="tk_kesulitan" prefWidth="109.0" text="Tigkat Kesulitan" />
+          <TableColumn fx:id="jawaban" prefWidth="116.0" text="Jawaban" />
+          <TableColumn fx:id="pertanyaan" minWidth="0.0" prefWidth="150.0" text="Pertanyaan" />
+          <TableColumn fx:id="matkul" minWidth="0.0" prefWidth="136.0" text="Matkul" />
+          <TableColumn fx:id="aksi" minWidth="0.0" prefWidth="106.0" text="Aksi" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
