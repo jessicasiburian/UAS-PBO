@@ -3,11 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/_BEBEB/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Retrofit/UjianOnlineApi.java</file>
             <file>file:/C:/xampp/htdocs/_BEBEB/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Splashscreen/UjianOnline.java</file>
             <file>file:/C:/xampp/htdocs/_BEBEB/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Splashscreen/SplashscreenController.java</file>
             <file>file:/C:/xampp/htdocs/_BEBEB/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Splashscreen/Splashscreen.fxml</file>
             <file>file:/C:/xampp/htdocs/_BEBEB/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Retrofit/RetroClient.java</file>
+=======
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Splashscreen/SplashscreenController.java</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Administrator/DaftarSoalController.java</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Kuis/SoalPBController.java</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Kuis/SoalSAController.java</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Kuis/SoalTFController.java</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Peserta/Dashboard.fxml</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Kuis/ListKuisController.java</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Administrator/Dashboard2.java</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Administrator/PendaftaranController.java</file>
+            <file>file:/C:/xampp/htdocs/UAS%20PBO/fix/UAS-PBO/UAS-PBO-2020_11418012/UAS2020/Aplikasi/UjianOnline/src/Peserta/Dashboard.java</file>
+>>>>>>> 2f3f98109ad40599ff428629a81b0e00fe3b5c82
         </group>
     </open-files>
 </project-private>

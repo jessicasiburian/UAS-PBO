@@ -5,9 +5,12 @@
  */
 package Kuis;
 
+import java.awt.Button;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.TableColumn;
 
 /**
  * FXML Controller class
@@ -16,9 +19,28 @@ import javafx.fxml.Initializable;
  */
 public class ListKuisController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
+    @FXML
+    private TableColumn<?, ?> tblidkuis;
+
+    @FXML
+    private TableColumn<?, ?> tglpelaksanaan;
+
+    @FXML
+    private TableColumn<?, ?> matkul;
+
+    @FXML
+    private TableColumn<?, ?> durasi;
+
+    @FXML
+    private Button btnDashboard;
+
+    @FXML
+    private Button btnAbout;
+
+    @FXML
+    private Button btnLogout;
+    
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

@@ -20,15 +20,15 @@
           <TableColumn fx:id="tblmatkul" prefWidth="249.0" text="Matakuliah" />
         </columns>
       </TableView>
-      <Label layoutX="30.0" layoutY="92.0" prefHeight="20.0" prefWidth="252.0" text="5 Daftar ujian Terakhir yang diikuti">
+      <Label layoutX="30.0" layoutY="92.0" prefHeight="20.0" prefWidth="252.0" text="Daftar Pengguna Terakhir">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
       <Pane prefHeight="50.0" prefWidth="752.0" style="-fx-background-color: #20B2AA;">
          <children>
-            <Button fx:id="btnKuis" layoutX="31.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: #ffffff;" text="Kuis" />
-            <Button fx:id="btnAbout" layoutX="583.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="About" />
+            <Button fx:id="btnDaftarSoal" layoutX="31.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #ffffff;" text="Daftar Soal" />
+            <Button fx:id="btnPendaftaran" layoutX="567.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Pendaftaran" />
             <Button fx:id="btnLogout" layoutX="668.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Log Out" />
          </children>
       </Pane>

@@ -5,8 +5,10 @@
  */
 package Peserta;
 
+import java.awt.Button;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 /**
@@ -16,9 +18,16 @@ import javafx.fxml.Initializable;
  */
 public class AboutController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
+    @FXML
+    private Button btnKuis;
+
+    @FXML
+    private Button btnAbout;
+
+    @FXML
+    private Button btnLogout;
+    
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
