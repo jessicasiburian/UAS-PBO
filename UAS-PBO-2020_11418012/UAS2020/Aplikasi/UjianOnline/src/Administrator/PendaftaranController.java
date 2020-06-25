@@ -8,11 +8,12 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.TableView;
 
 
 public class PendaftaranController implements Initializable {
 
-   
+
     @FXML
     private TextField reg_email;
 
@@ -30,6 +31,9 @@ public class PendaftaranController implements Initializable {
 
     @FXML
     private Button btnDaftar;
+
+    @FXML
+    private TableView<?> tabelDataPendaftar;
     
     
     @Override

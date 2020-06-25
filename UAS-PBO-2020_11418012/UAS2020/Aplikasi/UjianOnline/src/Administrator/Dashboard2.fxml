@@ -28,7 +28,7 @@
       <Pane prefHeight="50.0" prefWidth="752.0" style="-fx-background-color: #20B2AA;">
          <children>
             <Button fx:id="btnKuis" layoutX="31.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: #ffffff;" text="Kuis" />
-            <Button fx:id="btnAbout" layoutX="583.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="About" />
+            <Button fx:id="btnPendaftaran" layoutX="567.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Pendaftaran" />
             <Button fx:id="btnLogout" layoutX="668.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Log Out" />
          </children>
       </Pane>

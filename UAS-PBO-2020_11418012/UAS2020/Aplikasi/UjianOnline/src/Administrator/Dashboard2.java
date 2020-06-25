@@ -1,4 +1,4 @@
-package Peserta;
+package Administrator;
 
 import java.awt.Button;
 import java.net.URL;
@@ -28,7 +28,8 @@ public class Dashboard2 implements Initializable {
     private Button btnKuis;
 
     @FXML
-    private Button btnAbout;
+    private Button btnPendaftaran;
+
 
     @FXML
     private Button btnLogout;
