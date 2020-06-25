@@ -78,4 +78,12 @@ return function (App $app) {
         return $response->withJson(["status" => "success"], 200);
 
     });
+
+    $app->get("/peserta/", function(Request $request, Response $response){
+    	$sql = "SELECT * FROM peserta";
+    	$stmt = $this->db->prepare($sql);
+    	$stmt->execute();
+    	$result = $stmt->fetchAll();
+    	return $response->withJson(["status" => "success"], 200);
+    });
 };

@@ -5,11 +5,18 @@
  */
 package Splashscreen;
 
+import Model.Peserta;
+import Retrofit.RetroClient;
+import Retrofit.UjianOnlineApi;
+import java.util.List;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  *
@@ -33,5 +40,7 @@ public class UjianOnline extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+    
+
     
 }

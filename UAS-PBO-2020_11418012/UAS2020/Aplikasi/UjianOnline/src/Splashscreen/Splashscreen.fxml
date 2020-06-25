@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -11,7 +12,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="495.0" prefWidth="410.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Splashscreen.SplashscreenController">
    <children>
-      <Label layoutX="104.0" layoutY="27.0" text="Aplikasi Ujian Online">
+      <Label layoutX="104.0" layoutY="27.0" onMouseClicked="#login" text="Aplikasi Ujian Online">
          <font>
             <Font name="Century" size="20.0" />
          </font>
@@ -36,11 +37,14 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField id="tfnama" fx:id="email" layoutX="56.0" layoutY="232.0" prefHeight="25.0" prefWidth="300.0" />
-      <TextField id="tfpassword" fx:id="pass" layoutX="56.0" layoutY="284.0" prefHeight="25.0" prefWidth="300.0" />
-      <RadioButton fx:id="rbAdmin" layoutX="113.0" layoutY="322.0" mnemonicParsing="false" text="Admin" />
-      <RadioButton fx:id="rbPeserta" layoutX="114.0" layoutY="348.0" mnemonicParsing="false" text="Peserta" />
-      <Button id="btnreset" fx:id="btnReset" layoutX="201.0" layoutY="411.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="Reset" />
-      <Button id="btnlogin" fx:id="btnLogin" layoutX="281.0" layoutY="411.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="Login" />
+      <TextField fx:id="email" layoutX="56.0" layoutY="232.0" prefHeight="25.0" prefWidth="300.0" />
+      <TextField fx:id="pass" layoutX="56.0" layoutY="284.0" prefHeight="25.0" prefWidth="300.0" />
+      <RadioButton fx:id="rbAdmin" layoutX="113.0" layoutY="322.0" mnemonicParsing="false" text="Admin">
+         <toggleGroup>
+            <ToggleGroup fx:id="role" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="rbPeserta" layoutX="114.0" layoutY="348.0" mnemonicParsing="false" text="Peserta" toggleGroup="$role" />
+      <Button fx:id="btnReset" layoutX="201.0" layoutY="411.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="Reset" />
+      <Button fx:id="btnLogin" layoutX="281.0" layoutY="411.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="25.0" prefWidth="56.0" text="Login" />
    </children>
 </AnchorPane>
