@@ -5,6 +5,7 @@
  */
 package Kuis;
 
+import java.awt.Button;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
@@ -29,6 +30,15 @@ public class ListKuisController implements Initializable {
 
     @FXML
     private TableColumn<?, ?> durasi;
+
+    @FXML
+    private Button btnDashboard;
+
+    @FXML
+    private Button btnAbout;
+
+    @FXML
+    private Button btnLogout;
     
     
     @Override

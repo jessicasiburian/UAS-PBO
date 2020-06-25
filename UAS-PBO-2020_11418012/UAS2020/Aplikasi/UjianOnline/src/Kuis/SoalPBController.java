@@ -39,6 +39,15 @@ public class SoalPBController implements Initializable {
 
     @FXML
     private Button btnD;
+
+    @FXML
+    private Button btnDashboard;
+
+    @FXML
+    private Button btnAbout;
+
+    @FXML
+    private Button btnLogout;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {

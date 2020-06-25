@@ -1,6 +1,7 @@
 
 package Administrator;
 
+import java.awt.Button;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
@@ -30,6 +31,15 @@ public class DaftarSoalController implements Initializable {
 
     @FXML
     private TableColumn<?, ?> aksi;
+
+    @FXML
+    private Button btnDaftarSoal;
+
+    @FXML
+    private Button btnPendaftaran;
+
+    @FXML
+    private Button btnLogout;
     
     
     @Override

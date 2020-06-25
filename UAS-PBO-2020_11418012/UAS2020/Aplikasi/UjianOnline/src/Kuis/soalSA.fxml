@@ -4,30 +4,38 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="523.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Kuis.SoalTFController">
+<AnchorPane id="AnchorPane" prefHeight="437.0" prefWidth="608.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Kuis.SoalTFController">
    <children>
-      <Label layoutX="23.0" layoutY="109.0" prefHeight="20.0" prefWidth="58.0" text="Jawab :">
+      <Label layoutX="42.0" layoutY="162.0" prefHeight="20.0" prefWidth="58.0" text="Jawab :">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label layoutX="23.0" layoutY="30.0" text="Soal" />
-      <Label fx:id="soal2" layoutX="21.0" layoutY="56.0" text="2. Ibukota negara Indonesia adalah">
+      <Label layoutX="42.0" layoutY="83.0" text="Soal" />
+      <Label fx:id="soal2" layoutX="40.0" layoutY="109.0" text="2. Ibukota negara Indonesia adalah">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Button fx:id="btnselanjutnya" layoutX="335.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Selanjutnya" />
-      <Button fx:id="btnSebelum" layoutX="85.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Sebelum" />
-      <TextArea fx:id="jawban" layoutX="21.0" layoutY="137.0" prefHeight="58.0" prefWidth="217.0" />
-      <AnchorPane layoutX="380.0" layoutY="65.0" prefHeight="145.0" prefWidth="90.0" style="-fx-background-color: #EEE8AA;">
+      <Button fx:id="btnselanjutnya" layoutX="354.0" layoutY="381.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Selanjutnya" />
+      <Button fx:id="btnSebelum" layoutX="104.0" layoutY="381.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Sebelum" />
+      <TextArea fx:id="jawban" layoutX="40.0" layoutY="190.0" prefHeight="58.0" prefWidth="217.0" />
+      <AnchorPane layoutX="399.0" layoutY="118.0" prefHeight="145.0" prefWidth="90.0" style="-fx-background-color: #EEE8AA;">
          <children>
             <Button fx:id="btn1" layoutX="23.0" layoutY="26.0" mnemonicParsing="false" text="No. 1" />
             <Button fx:id="btn2" layoutX="23.0" layoutY="61.0" mnemonicParsing="false" text="No. 2" />
             <Button fx:id="btn3" layoutX="23.0" layoutY="95.0" mnemonicParsing="false" text="No. 3" />
          </children>
       </AnchorPane>
+      <Pane layoutX="-9.0" prefHeight="50.0" prefWidth="617.0" style="-fx-background-color: #20B2AA;">
+         <children>
+            <Button fx:id="btnDashboard" layoutX="31.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #ffffff;" text="Dashboard" />
+            <Button fx:id="btnAbout" layoutX="438.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="About" />
+            <Button fx:id="btnLogout" layoutX="523.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Log Out" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

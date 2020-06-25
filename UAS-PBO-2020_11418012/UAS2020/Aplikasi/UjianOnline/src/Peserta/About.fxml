@@ -1,57 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ujianonline.Peserta.AboutController">
+<AnchorPane id="AnchorPane" prefHeight="456.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ujianonline.Peserta.AboutController">
    <children>
-      <ImageView fitHeight="125.0" fitWidth="119.0" layoutX="167.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="125.0" fitWidth="119.0" layoutX="164.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/about.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="108.0" layoutY="200.0" text="Nim">
+      <Label layoutX="105.0" layoutY="272.0" text="Nim">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="226.0" layoutY="200.0" text="11418012">
+      <Label layoutX="223.0" layoutY="272.0" text="11418012">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="108.0" layoutY="229.0" text="Nama">
+      <Label layoutX="105.0" layoutY="301.0" text="Nama">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="226.0" layoutY="229.0" text="Jessica Siburian">
+      <Label layoutX="223.0" layoutY="301.0" text="Jessica Siburian">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="108.0" layoutY="260.0" text="Tgl Lahir">
+      <Label layoutX="105.0" layoutY="332.0" text="Tgl Lahir">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="226.0" layoutY="260.0" text="20 Desember 2000">
+      <Label layoutX="223.0" layoutY="332.0" text="20 Desember 2000">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="109.0" layoutY="290.0" text="Alamat">
+      <Label layoutX="106.0" layoutY="362.0" text="Alamat">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="226.0" layoutY="290.0" text="Paniaran">
+      <Label layoutX="223.0" layoutY="362.0" text="Paniaran">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
+      <Pane layoutY="7.0" prefHeight="50.0" prefWidth="639.0" style="-fx-background-color: #20B2AA;">
+         <children>
+            <Button fx:id="btnKuis" layoutX="31.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: #ffffff;" text="Kuis" />
+            <Button fx:id="btnAbout" layoutX="428.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="About" />
+            <Button fx:id="btnLogout" layoutX="513.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Log Out" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

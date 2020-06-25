@@ -11,7 +11,7 @@ import javafx.scene.control.RadioButton;
 
 public class SoalTFController implements Initializable {
 
-    @FXML
+@FXML
     private RadioButton rbTrue;
 
     @FXML
@@ -31,6 +31,15 @@ public class SoalTFController implements Initializable {
 
     @FXML
     private Button btn3;
+
+    @FXML
+    private Button btnDashboard;
+
+    @FXML
+    private Button btnAbout;
+
+    @FXML
+    private Button btnLogout;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
